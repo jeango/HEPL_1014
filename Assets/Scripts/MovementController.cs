@@ -5,6 +5,8 @@ public class MovementController : MonoBehaviour
 {
     public Vector2 direction;
     public int speed;
+    public Rigidbody2D body;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +16,23 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
+        if (!body || body.isKinematic)
+        {
+            Move();
+        }
     }
+
+    void FixedUpdate()
+    {
+        if (body && !body.isKinematic)
+        {
+            MoveDynamic();
+        }
+    }
+    private void MoveDynamic()
+    {
+        body.velocity = direction.normalized * speed;
+    }    
     
     public void SetDirection(InputAction.CallbackContext context)
     {
@@ -28,6 +45,8 @@ public class MovementController : MonoBehaviour
          currentPosition += Time.deltaTime * speed * (Vector3)direction.normalized;
          transform.position = currentPosition;       
     }
+
+
 
 
     
