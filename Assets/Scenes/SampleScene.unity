@@ -686,6 +686,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -6853312512570685251, guid: 11a4a57da221e44918390ffac77c993e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c73d5e96273934f4591ce8980d2893e1, type: 2}
+    - target: {fileID: -6853312512570685251, guid: 11a4a57da221e44918390ffac77c993e, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
@@ -770,7 +774,19 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7946445958067760880, guid: 11a4a57da221e44918390ffac77c993e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: c73d5e96273934f4591ce8980d2893e1, type: 2}
+    - target: {fileID: 7946445958067760880, guid: 11a4a57da221e44918390ffac77c993e, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946445958067760880, guid: 11a4a57da221e44918390ffac77c993e, type: 3}
       propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7946445958067760880, guid: 11a4a57da221e44918390ffac77c993e, type: 3}
+      propertyPath: m_CollisionDetection
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
