@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9d94b540bdb6847ae8216e7cbfd3b44c
+guid: 9e698af5894ec7c488374787f800ad2a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,20 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,32 +82,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -149,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Paranoid_0
+      name: KRYTUS_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 1
+        y: 6
+        width: 30
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9b1df900838253498bccfe416f1290f
-      internalID: -1670343792
+      spriteID: 82a82de3624b83a44a9a11f86cf49d29
+      internalID: -944578932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paranoid_1
+      name: KRYTUS_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 36
+        y: 6
+        width: 22
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab5b45e956f46242ace06ee6a38659f
-      internalID: 222489586
+      spriteID: 28b051b594d199d40ae65240044cc0a4
+      internalID: -360014741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paranoid_2
+      name: KRYTUS_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 63
+        y: 6
+        width: 28
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 529f4158271f2304c872404bf2378194
-      internalID: 1515713296
+      spriteID: cebc0a56067923b499a65f6ece7dcc58
+      internalID: 1602789533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Paranoid_3
+      name: KRYTUS_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 95
+        y: 6
         width: 32
-        height: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda79381d26838e48a3e3424a24e1da5
-      internalID: 2038058033
+      spriteID: 8ac054b7606a03f4a8865838cb796948
+      internalID: 672197168
       vertices: []
       indices: 
       edges: []
@@ -243,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Paranoid_0: -1670343792
-      Paranoid_1: 222489586
-      Paranoid_2: 1515713296
-      Paranoid_3: 2038058033
+      KRYTUS_0: -944578932
+      KRYTUS_1: -360014741
+      KRYTUS_2: 1602789533
+      KRYTUS_3: 672197168
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
