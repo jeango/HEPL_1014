@@ -233,6 +233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: "Oufti k\xE9 naffaire!"
+  sendDuration: 0
+  waitDuration: 0
 --- !u!114 &2510122773641407172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,4 +491,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fbfef6d3b7084389891562c7c04687b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 1650726398378075069, guid: 945421562fc9b40a8bf0b903d9f9c5d8, type: 3}
+  projectilePrefab: {fileID: 2272774177335772789, guid: ce4a5386096e3ce4aa062085cb1348a4, type: 3}
