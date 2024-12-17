@@ -1,8 +1,6 @@
 using System.Linq;
 using UnityEngine;
 
-namespace HEPL.B11014
-{
 public class Damage : MonoBehaviour
 {
     public string[] tagsToDamage;
@@ -25,6 +23,4 @@ public class Damage : MonoBehaviour
         }
     }
 
-}
-    
 }
